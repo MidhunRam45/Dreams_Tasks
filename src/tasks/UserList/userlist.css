@@ -1,0 +1,104 @@
+ .user-list-container {
+    width: 55vw;
+    height: 95vh; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.user-id-select {
+    margin-bottom: 20px;
+    width: 150px;
+    transition: all 0.3s ease-in-out;
+}
+
+.user-id-select .select {
+    text-align: center;
+}
+
+.table-container {
+    flex: 1; 
+    overflow-y: auto; 
+}
+
+.user-list-table {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.user-list-table:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.user-list-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.ant-table-thead > tr > th {
+    background-color: #e6f7ff;
+    color: #0050b3;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.ant-table-thead > tr > th:hover {
+    background-color: #bae7ff;
+}
+
+.ant-table-tbody > tr > td {
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.ant-table-tbody > tr:hover > td {
+    background-color: #f0f5ff;
+    color: #0050b3;
+}
+
+
+.ant-pagination-item {
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.ant-pagination-item:hover {
+    background-color: #e6f7ff;
+    border-color: #91d5ff;
+}
+
+.ant-pagination-item-active {
+    background-color: #bae7ff;
+    border-color: #40a9ff;
+}
+
+.ant-pagination-item-active a {
+    color: #0050b3;
+}
+
+.user-list-container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

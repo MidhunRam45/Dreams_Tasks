@@ -1,0 +1,21 @@
+.create-crud{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+form{
+    width: 40%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: rgb(223, 221, 221);
+}
+label{
+    font-weight: 800;
+}
+input{
+    margin-left: 1rem;
+}

@@ -1,0 +1,71 @@
+.light {
+    background-color: rgb(230, 222, 222);
+    color: black;
+  }
+  
+.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .App {
+    /* border: 1px solid black; */
+    width: 35rem;
+    margin: auto;
+    padding: 0px;
+    min-height: 90vh;
+    /* display: flex; */
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 1rem
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(147, 102, 189);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 25rem;
+    min-height: 2rem;
+  }
+  ul li p{
+    font-size: 13px;
+  }
+  ul li h3{
+margin: 0px;
+  }
+  .header button{
+    padding: 5px;
+    height: 2rem;
+    margin-left: 1rem;
+  }
